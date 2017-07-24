@@ -1,15 +1,20 @@
-.header {
-    background-image: url( "file:///Users/GriffinTrent/Projects/HelloWorld/img/cigars-header.png");
-    text-align: center;
-    color: firebrick;
-    text-shadow: 2px 2px white;
-    font-size: 89px;
-    padding-top: 40px;
-    opacity: .5;
+nav{
+    padding-left: 50px;
 }
+
+.header-background {
+    background-image: url( "file:///Users/GriffinTrent/Projects/euro-cigar/img/cigars-header.png");
+    height: 500px;
+}
+
 .header-text {
-opacity: 1 !important;
+font-size: 75px;
+color: firebrick;
+text-shadow: 2px 2px white;
+padding-top: 250px;
+text-align: center;
 }
+
 .button {
     width: 200px;
     height: 80px;
@@ -22,6 +27,7 @@ opacity: 1 !important;
     color: yellow;
     line-height: 80px
 }
+
 .1 div {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
